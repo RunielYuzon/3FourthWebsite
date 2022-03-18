@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	background-color: hsl(217, 54%, 11%);
+	font-family: 'Outfit', sans-serif;
+	font-size: 18px;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	width: 450px;
+	height: 700px;
+	border-radius: 10px;
+	margin: 50px auto;
+	background-color: hsl(216, 50%, 16%);
+	box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, .4);
+}
+
+.equilibrium {
+	width: 380px;
+	position: relative;
+	top: 30px;
+	border-radius: 10px;
+}
+
+.view {
+	position: relative;
+	top: 160px;
+}
+
+.active-equilibrium {
+	opacity: 0;
+	width: 380px;
+	position: absolute;
+	height: 380px;
+	top: 30px;
+	left: 35px;
+	border-radius: 10px;
+	margin: auto;
+	transition: opacity 0.5s ease-in-out;
+	background-color: hsl(178, 100%, 50%, 40%);
+}
+
+.active-equilibrium:hover {
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+.title {
+	position: relative;
+	top: 15px;
+	right: 80px;
+	color: white;
+	cursor: pointer;
+}
+
+.title:active {
+	color: hsl(178, 100%, 50%);
+}
+
+.description {
+	width: 70%;
+	position: relative;
+	color: hsl(215, 51%, 70%);
+	top: 10px;
+	left: 35px;
+	text-align: left;
+	line-height: 1.5
+}
+
+.ethereum {
+	position: relative;
+	right: 185px;
+	top: 20px;
+}
+
+.price {
+	position: relative;
+	right: 130px;
+	bottom: 23px;
+	color: hsl(178, 100%, 50%);
+}
+
+.clock {
+	position: relative;
+	bottom: 62px;
+	left: 95px;
+}
+
+.clock-paragraph {
+	position: relative;
+	bottom: 105px;
+	left: 150px;
+	color: hsl(215, 51%, 70%);
+}
+
+.line {
+	position: relative;
+	bottom: 100px;
+	width: 83%;
+	background-color: hsl(215, 32%, 27%);
+	border: none;
+	height: 1px;
+}
+
+.profile-picture {
+	position: relative;
+	bottom: 85px;
+	width: 10%;
+	right: 170px;
+}
+
+.profile-paragraph {
+	position: relative;
+	bottom: 145px;
+	right: 30px;
+	color: hsl(215, 51%, 70%);
+}
+
+.name {
+	color: white;
+	cursor: pointer;
+}
+
+.name:active {
+	color: hsl(178, 100%, 50%);
+}
